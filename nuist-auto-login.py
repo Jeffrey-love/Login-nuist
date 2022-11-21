@@ -8,7 +8,6 @@ print("""
 @Author: Jeffrey
 @repo: https://github.com/Jeffrey-love/Login-nuist
 @version: 1.0
-@email: jeffreyjiehan@qq.com
 
  _                _         _   _ _   _ ___ ____ _____ 
 | |    ___   __ _(_)_ __   | \ | | | | |_ _/ ___|_   _|
