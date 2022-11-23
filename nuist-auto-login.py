@@ -34,7 +34,7 @@ def get_ip() -> str:
 
 def login(ip):
     res2 = {"username": phone, "password": password,
-            "ifautologin": "0", "channel": "3", "pagesign": "secondauth", "usripadd": ip}
+            "ifautologin": "0", "channel": type, "pagesign": "secondauth", "usripadd": ip}
     resp2 = post(url="http://10.255.255.46/api/v1/login",
                  data=json.dumps(res2, separators=(",", ":"))).json()
     outport = resp2["data"]["outport"]
